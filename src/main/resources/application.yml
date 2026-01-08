@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: inventory-management
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ims2026
+    username: postgres
+    password: 20admin26
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
